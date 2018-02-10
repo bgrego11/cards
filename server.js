@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
  // use connect-flash for flash messages stored in session
 
 // routes ======================================================================
-r
+
 Card = require('./app/models/card.js')
 
 
