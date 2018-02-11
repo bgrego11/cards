@@ -419,7 +419,7 @@ a, a:hover, a:focus {
     left: -250px;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    background: #2b2929;
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -435,7 +435,7 @@ a, a:hover, a:focus {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: greenyellow;
+    background: #fff;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -445,8 +445,8 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 #dismiss:hover {
-    background: #fff;
-    color: #7386D5;
+    background: #5f5d5d;
+    color: #2b2929;
 }
 
 .overlay {
@@ -460,7 +460,7 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #2b2929;
 }
 
 #sidebar ul.components {
@@ -479,13 +479,13 @@ a, a:hover, a:focus {
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #474545;
     background: #fff;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #2b2929;
 }
 
 
@@ -509,7 +509,7 @@ a[aria-expanded="true"]::before {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #2b2929;
 }
 
 ul.CTAs {
@@ -525,11 +525,11 @@ ul.CTAs a {
 }
 a.download {
     background: #fff;
-    color: #7386D5;
+    color: #494747;
 }
 a.article, a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
+    background:  #fff !important;
+    color: #494747 !important;
 }
 
 

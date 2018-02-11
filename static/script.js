@@ -57,15 +57,15 @@ $(document).ready(function () {
 
     setTimeout(function () {
        animateSlideB();
-    }, 5000);
+    }, 3000);
 
     setTimeout(function () {
        animateSlideC();
-    }, 10000);
+    }, 7000);
 
     setTimeout(function () {
        animateSlideD();
-    }, 15000);
+    }, 10000);
 
 
    replay.on('click', function () {
