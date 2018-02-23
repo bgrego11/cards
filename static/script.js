@@ -16,7 +16,7 @@ $(document).ready(function () {
         if (i < 3) {
             setTimeout(function () {
                 slide.eq(i).fadeOut();
-            }, 5000 * (i + 1));
+            }, 3000 * (i + 1));
         }
     });
 
@@ -61,11 +61,11 @@ $(document).ready(function () {
 
     setTimeout(function () {
        animateSlideC();
-    }, 7000);
+    }, 6000);
 
     setTimeout(function () {
        animateSlideD();
-    }, 10000);
+    }, 9000);
 
 
    replay.on('click', function () {
